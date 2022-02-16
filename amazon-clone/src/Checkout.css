@@ -1,0 +1,29 @@
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: max-content;
+  margin-right: 10px;
+  padding: 10px;
+  
+}
+.checkout__ad {
+  width: 90%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.checkout__title {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.checkUser {
+  font-size: 12px;
+  color: black;
+}
+.notloggedin {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  height: 200px;
+}

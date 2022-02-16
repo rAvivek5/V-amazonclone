@@ -1,0 +1,6 @@
+.order {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(227, 240, 241);
+  height: 1000px;
+}

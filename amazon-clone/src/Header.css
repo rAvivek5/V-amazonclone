@@ -1,0 +1,125 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  
+  /* max-width: 1600px; */
+}
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.header__dropdown {
+  height: 42px !important;
+  width: 1px !important;
+}
+.header__searchInput {
+  height: 42px !important;
+  padding: 10px;
+  width: 100%;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  width: 42px !important;
+  height: 42px !important;
+  background-color: rgb(252, 194, 87);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header__optionBasket {
+  margin-right: 20px;
+}
+
+/* .header2 {
+  height: 41px;
+  display: flex;
+  align-items: center;
+  top: 0;
+  z-index: 100;
+  background-color: #1f2936;
+  /* max-width: 1600px; */
+
+.header2{
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2936;
+  align-items: center;
+  height: 39px;
+}
+.header2menu {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+  white-space: nowrap;
+}
+.header2fields {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+  white-space: nowrap;
+}
+.header2image {
+  margin-left: 100px;
+}
+.h2carousel {
+  margin: 100px;
+  display: 'block';
+  width: 700px;
+  height: 4px;
+}
+.h2image {
+  display: flex;
+}
